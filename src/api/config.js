@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Sesuaikan dengan URL backend Anda
+  baseURL: 'https://be-toko-hp-production.up.railway.app/api', // Sesuaikan dengan URL backend Anda
 });
 
 api.interceptors.request.use(

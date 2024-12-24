@@ -6,7 +6,7 @@ const Product = ({ product, onEdit, onDelete }) => (
     <CardMedia
       component="img"
       height="140"
-      image={`http://localhost:5000${product.pd_image}`}
+      image={`https://be-toko-hp-production.up.railway.app${product.pd_image}`}
       alt={product.pd_name}
     />
     <CardContent>
